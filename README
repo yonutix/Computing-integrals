@@ -1,0 +1,39 @@
+=========================================================
+Mihai Ionut Cosmin   ||   Grupa 312CC  ||  SO:Windows7  ||  IDE:MATLAB
+=========================================================
+
+----------------
+Cerinta 1:
+----------------
+	-Am generat cu ajutorul functiei unfrnd punctele din interiorul patratului;
+	-Functia primeste ca argumente numarul de puncte care trebuiesc generate,si capetele celor 2 intervale;
+	-Punctele sunt generate psudorandom uniform pe cele 2 intervale;
+
+----------------
+Cerinta 2:
+----------------
+	a) 
+	-Am aplicat formula S=h/2 * (B+b);
+	-Functia primeste argument un numar de puncte ,valorile functie in acele puncte si returneaza suprafata 
+	b)
+	-Am gasit cel mai mic dreptunghicare include curba inchisa;
+	-Generez la ficare pas un numar dublu fata de cel anterior de puncte psudo random uniform distribuite;
+	-Numar cate puncte sunt in interiorul curbei in felulurmator:
+		-Initial am 4 puncte care delimiteaza 2 segmente
+		-Aflu ecuatia a 2 drepte care trec prin fiecare din cele 2 segmente
+		-Gasesc punctul  de intersectie al dreptelor
+		-Daca punctul se afla in interiorul intervalelor absciselor si normalelor punctelor care delimiteaza segmentul atunci cele 2 segmente se intersecteaza;
+		-Daca numarul de intersectari e impar atunci punctul e in interior;
+	-Fac raportul intre numarul de puncte din interior si numarul total,apoi inmultesc cu aria dreptunghiului.
+	-Procesul se opreste cand diferenta dintre aproximarile suprafetei e mai mica decat toleranta data.
+	-Functia primeste ca argumente 2 vectori care reprezinta punctele curbei , o toleranta tol si returneaza suprafata curbei inchise;
+----------------
+Cerinta 3: 
+----------------
+	-Calculez volumul folosindu-ma de formula volumui trunchiului de piramida.Consider suprafata de sus si de jos bazele trunchiului,si inaltimea e distanta pe Z dintre suprafete.ASplic apoi formula banala V=h/3(S1+S2+sqrt(S1*S2));
+	-Functia primeste ca argument o toleranta cu care calculeaza suprafetele cu metoda Monte Carlo si adresa directorului in care se afla fisierele de unde citeste matricile;returneaza Volumul calculat pentru suprafetele Monte Carlo si trapez;
+
+----------------
+Cerinta 4:
+----------------
+	-Incarca fisierele pentru suprafete,afiseaza valoarea suprafetelor,si volumele calculate prin cele 2 metode...
